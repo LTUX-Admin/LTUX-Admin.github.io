@@ -1,0 +1,36 @@
+/* GAME CARDS */
+.game-card
+{
+
+}
+.game-card p
+{
+  color:#F39C6B;
+  //font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  padding-top: 4px;
+  margin-bottom: 50px;
+}
+.game-card:hover
+{
+  text-decoration: none;
+}
+
+/*Cards*/
+.card
+{
+  border-color:rgb(40,68,116);
+  border-width: 1px;
+}
+.card-title{
+  font-size: 20px;
+  //font-family: 'Press Start 2P', cursive;
+}
+.social-list a
+{
+  color:#F39C6B;
+}
+.card-footer
+{
+  background-color: rgb(40,68,116);
+}

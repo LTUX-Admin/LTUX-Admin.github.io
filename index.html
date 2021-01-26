@@ -1,0 +1,91 @@
+---
+layout: default
+---
+<header class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center  text-center">
+            <div class="col-12 align-self-end">
+                <h1 class="text-white pixelText">GLGX</h1>
+            </div>
+            <div class="col-12 align-self-baseline">
+                <h4 class="text-white pixelText">February 18th 2021</h4>
+                <h5 class="text-white pixelText pt-2 pb-2">-TO-</h5>
+                <h4 class="text-white pixelText">February 21st 2021</h4>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="about" class="page-section white-spike blue-bg">
+    <div class="container">
+        <div class="section-header pb-80">
+            <h2 class="pixelText">About Us</h2>
+            <hr class="divider"/>
+            <p class="color-white">Great Lakes Game Expo is an online game design and development expo that is hosted in the Great Lakes region.</p>
+            <a href="https://discord.gg/vpFXgxNxKn" target="_blank"><img width="300" src="/img/discord.png"/> </a>
+        </div>
+    </div>
+</section>
+
+<section id="speakers" class="page-section section-white-bg blue-spike">
+    <div class="container pb-80">
+        <div class="section-header mb-100">
+            <h2 class="pixelText">Speakers</h2>
+            <hr class="divider"/>
+<!--            <p>Come listen to them talk!</p>-->
+        </div>
+        <div class="row">
+            {% for s in site.speakers %}
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <a href="{{s.url}}"><img src="{{s.img}}" class="card-img-top" /></a>
+                    <div class="card-body">
+                        <h5 class="card-title mb-2">{{s.name}}</h5>
+                        <div class="card-text mb-3">{{s.short_description}}</div>
+                        <small><a class="color-orange" href="{{s.url}}">See More...</a> </small>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <ul class="social-list list-inline mb-0">
+                            {% for social in s.social %}
+                            <li class="list-inline-item"><a class="" href="{{social.url}}" target="_blank"><i class="{{social.icon}}"></i></a></li>
+                            {% endfor %}
+
+                        </ul><!--//social-list-->
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="col-12 text-center">
+                <p><small>Want to become a speaker? Deadline closes February 7th, 2021!</small></p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeVNU7D5KBIcMN3dcX2OUMkFi4b2gANr2pUonc2EnzSeiUPw/viewform" target="_blank" class="btn btn-sm btn-info">Submit a Talk/Panel</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="games" class="page-section blue-bg">
+    <div class="container-fluid pb-80">
+        <div class="section-header mb-100">
+            <h2 class="pixelText">Games</h2>
+            <hr class="divider"/>
+<!--            <p class="color-white">Check these out!</p>-->
+        </div>
+        <div class="row">
+            {% for g in site.games %}
+            <div class="col-12 col-md-4 ">
+                <a href="{{g.getLink}}" target="_blank" class="game-card">
+                    <img src="{{g.img}}" class="card-img-top" />
+                    <p>{{g.maker}} | {{g.name}}</p>
+                </a>
+            </div>
+            {% endfor %}
+            <div class="col-12 text-center text-white">
+                <p><small>Want your game in the conference? Deadline closes February 7th, 2021!</small></p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_knD0XFIm6ziTMWG8_aRhLJ8e7lv1aaKqRYf6Tj0KXPoR7A/viewform" target="_blank" class="btn btn-sm btn-info">Submit a Game/Trailer</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+

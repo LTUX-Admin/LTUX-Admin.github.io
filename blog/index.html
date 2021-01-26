@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<section class="page-section section-white-bg">
+    <div class="container pb-80">
+
+        <div class="row">
+            {% for post in paginator.posts %}
+            <div class="col-12 mb-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="pixelText color-orange">{{ post.title }}</h4>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-muted">{{ post.date | date_to_string }}</p>
+
+                    </div>
+                    <div class="col-12">
+                        {% if post.content contains site.excerpt_separator %}
+                            {{ post.excerpt }}
+                        <small class="color-orange"><a href="{{ post.url }}"><i>Read More...</i></a></small>
+                        {% else %}
+                            {{ post.content }}
+                        {% endif %}
+                    </div>
+                    <div class="col-12">
+                        <hr class="divider-long"/>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="col-12">
+                <div class="pagination">
+                    {% if paginator.next_page %}
+                    <a class="pagination-item older" href="{{paginator.next_page}}">Older</a>
+                    {% else %}
+                    <span class="pagination-item older">Older</span>
+                    {% endif %}
+                    {% if paginator.previous_page %}
+                    {% if paginator.page == 2 %}
+                    <a class="pagination-item newer" href="/blog">Newer</a>
+                    {% else %}
+                    <a class="pagination-item newer" href="{{paginator.previous_page}}">Newer</a>
+                    {% endif %}
+                    {% else %}
+                    <span class="pagination-item newer">Newer</span>
+                    {% endif %}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+

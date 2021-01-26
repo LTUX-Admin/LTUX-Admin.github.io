@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+<body>
+    <div class="wrapper">
+        {% include navbar.html %}
+        <div class="content-wrapper">
+            {{ content }}
+        </div>
+        <footer id="footer" class="p-5 section-black-bg black-spike-header bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-white">
+                        <p class="pixelText"><small>Copyright © 2021</small></p>
+                        <p class="pixelText"><small>Great Lakes Game Expo (GLGX)</small></p>
+                        <div class="social text-center">
+                            <a class="color-white" href="https://twitter.com/glgexpo" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="color-white" href="https://facebook.com/glgexpo" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="color-white" href="https://twitch.tv/glgexpo" target="_blank"><i class="fab fa-twitch"></i></a>
+                            <a class="color-white" target="_blank" href="https://dev.us7.list-manage.com/subscribe/post?u=4350f368b39cdc92d6092734c&amp;id=03be09586c"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    {% include scripts.html %}
+
+</body>
+</html>

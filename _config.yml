@@ -1,0 +1,20 @@
+permalink: "/blog/:year/:month/:day/:slug"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+paginate: 5
+paginate_path: "/blog/post:num/"
+excerpt_separator: <!--more-->
+sass:
+  style: compressed
+  sass_dir: css
+collections:
+  games:
+    output: true
+  speakers:
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
