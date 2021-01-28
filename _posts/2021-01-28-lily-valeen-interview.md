@@ -8,6 +8,8 @@ Get to Know Who's Who At GLGX 2021!
 -----------------------------------
 In the run up to this year's event, we are conducting a series of interviews with presenters at Great Lakes Game Expo. We hope to channel from all corners of game development to present you with the best experience possible. So please enjoy getting to know our wonderful speakers!
 
+<!--more-->
+
 ### Who are you?
 > Hey there! I'm Lily Valeen, and I'm an independent game designer from Ann Arbor, Michigan. I'm a game designer! My goal is to make games that will make people cry, one way or another. I enjoy making action games that feel satisfying to play, and I really want to tell personal stories with some humanity in them.
 
