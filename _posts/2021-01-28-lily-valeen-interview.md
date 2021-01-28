@@ -28,6 +28,8 @@ In the run up to this year's event, we are conducting a series of interviews wit
 ### What has been your favorite game to work on?
 > It's definitely my current project - BOSSGAME: The Final Boss is My Heart. I've done a bunch of game jams, and those projects are fun to work on in a burst of energy, but they're super messy. Bossgame is such a bigger challenge to me, in a good way. I have to find clever ways to fix over the problems you can ignore in a jam game. It's the first game where I'm really spending a lot of time writing characters and creating a mood. And personally I'm just really really proud of the controls! I've been playing it over and over for two years and I still have fun.
 
+![BOSSGAME: The Final Boss is My Heart.](/img/games/bossgame.gif)
+
 ### What do you think is the most important problem the game industry faces today?
 > Oh jeez, that's difficult. I think the game industry has adopted a lot of horrible practices from older industries. A huge portion of the industry is very set in their ways and afraid of anything they consider a risk. I think that mentality leads to everything from crunch, to a lack of diversity in both audience and developers, to games & stories that feel flat before they're even released. You see this all the time in AAA companies, but it's still common in smaller developers, too. So if I had to sum it up... greed, or a fear of change.
 
