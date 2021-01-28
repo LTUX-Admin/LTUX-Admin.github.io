@@ -36,6 +36,7 @@ In the run up to this year's event, we are conducting a series of interviews wit
 <div style="text-align: center">
 <img src="/img/games/bossgame.gif" />
 </div>
+<br></br>
 
 ### What do you think is the most important problem the game industry faces today?
 > Oh jeez, that's difficult. I think the game industry has adopted a lot of horrible practices from older industries. A huge portion of the industry is very set in their ways and afraid of anything they consider a risk. I think that mentality leads to everything from crunch, to a lack of diversity in both audience and developers, to games & stories that feel flat before they're even released. You see this all the time in AAA companies, but it's still common in smaller developers, too. So if I had to sum it up... greed, or a fear of change.
