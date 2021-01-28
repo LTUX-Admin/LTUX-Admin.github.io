@@ -4,7 +4,7 @@ title:  "Interview with Lily Valeen"
 date:   2021-01-28 15:00 -0500
 ---
 
-![Interview Banner](/img/blog/interview-banner.png)
+![Interview Banner](/img/blog/interview-header.png)
 
 Get to Know Who's Who At GLGX 2021!
 -----------------------------------
