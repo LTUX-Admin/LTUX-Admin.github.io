@@ -8,6 +8,8 @@ Get to Know Who's Who At GLGX 2021!
 -----------------------------------
 In the run up to this year's event, we are conducting a series of interviews with presenters at Great Lakes Game Expo. We hope to channel from all corners of game development to present you with the best experience possible. So please enjoy getting to know our wonderful speakers!
 
+![Lily Valeen](/img/speakers/lily)
+
 <!--more-->
 
 ### Who are you?
