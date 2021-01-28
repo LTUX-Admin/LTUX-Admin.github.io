@@ -19,7 +19,7 @@ In the run up to this year's event, we are conducting a series of interviews wit
 <!--more-->
 
 ### Who are you?
-> Hey there! I'm Lily Valeen, and I'm an independent game designer from Ann Arbor, Michigan. I'm a game designer! My goal is to make games that will make people cry, one way or another. I enjoy making action games that feel satisfying to play, and I really want to tell personal stories with some humanity in them.
+> Hey there! I'm Lily Valeen, and I'm an independent game designer from Ann Arbor, Michigan. My goal is to make games that will make people cry, one way or another. I enjoy making action games that feel satisfying to play, and I really want to tell personal stories with some humanity in them.
 
 ### What are you presenting at GLGX2021?
 > A few things! I'm putting up a demo and a trailer for Bossgame. I'm also giving a talk titled "Misanthropic Mechanics" focused on game design. And I'm also making a little contribution to a digital zine that I believe Steven is putting together.
