@@ -1,7 +1,10 @@
 /* GAME CARDS */
 .game-card
 {
-
+  img{
+    max-height: 463px;
+    object-fit: cover;
+  }
 }
 .game-card p
 {

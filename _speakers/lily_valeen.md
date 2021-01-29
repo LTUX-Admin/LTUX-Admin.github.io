@@ -9,4 +9,10 @@ social:
     -
         icon: fab fa-twitter
         url: https://www.twitter.com/ItsMeLilyV
+    -
+        icon: fab fa-itch-io
+        url: https://lilyv.itch.io
+    -
+        icon: fas fa-globe
+        url:  http://www.bossgamegame.com
 ---

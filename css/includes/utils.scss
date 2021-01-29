@@ -4,7 +4,15 @@
   justify-content: center;
   text-align: center;
 }
+.permalink
+{
 
+  color:#F39C6B;
+  &:hover{
+    text-decoration: none;
+    color:#ee8650;
+  }
+}
 .pb-80{
   padding-bottom: 80px;
 }
