@@ -4,7 +4,7 @@ title:  "Interview with Austin Yarger"
 date:   2021-02-04 15:00 -0500
 ---
 
-<div style="text-align: center; width: 100%">
+<div style="text-align: center; width: 100%;">
 <img src="/img/blog/interview-header.png"/>
 </div>
 <br>
@@ -21,7 +21,7 @@ In the run up to this year's event, we are conducting a series of interviews wit
 ### What are you presenting at GLGX2021?
 > I have actually submitted two games, one of them is entirely made by Arbor Interactive. That one is Good-bye Groundhog, a game in which you are framed for causing an eternal winter. The groundhogs are pinned for extending winter so long that the animal community is starving and hurting. You’ll need to defend yourself from a very desperate and increasingly agitated mob. You’ve got to warm their hearts, find your daughter and turn the tables. It’s a tower defense game that is highly mobile and not particularly long. It was made for the Locally Sourced Michigan Winter Game Bundle ([Link](https://itch.io/b/786/locally-sourced-winter-bundle)). I hope you only encounter a handful of bugs while playing it, but I think it's a good experience for the cost, and I am fairly proud of it.
 
-<div style="text-align: center; width: 800px">
+<div style="text-align: center; width: 800px;">
 <img src="/img/games/goodbyegroundhog.png" />
 </div>
 <br>
