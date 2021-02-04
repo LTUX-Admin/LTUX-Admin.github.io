@@ -4,7 +4,7 @@ title:  "Interview with Lily Valeen"
 date:   2021-01-28 15:00 -0500
 ---
 
-<div style="text-align: center">
+<div style="text-align: center; width: 100%">
 <img src="/img/blog/interview-header.png"/>
 </div>
 <br>
