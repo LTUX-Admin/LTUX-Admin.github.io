@@ -29,6 +29,7 @@ In the run up to this year's event, we are conducting a series of interviews wit
 
 ### What games are you most inpsired by?
 > Too many to remember! I know Link's Awakening was the most awe-inspiring game I played when I was a kid. And in college, my professor had us play a small Unity game called "Sarah's Run" by Sophie Houlden. That was kind of the moment when it hit me that a single person could create a really cool game. Nowadays I mostly get inspired by indie games, because that's often where you see the weird twists on gameplay and also the most personal stories... stuff like Minit, or We Know The Devil.
+
 > Outer Wilds! Outer Wilds is one of those games that took a cool idea like a time loop and made it into this wonderfully unique space detective game. I love seeing stuff like that.
 
 ### What has been your favorite game to work on?
