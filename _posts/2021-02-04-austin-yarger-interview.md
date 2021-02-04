@@ -35,7 +35,7 @@ In the run up to this year's event, we are conducting a series of interviews wit
 
 > Here’s the thing about game development, here is what makes it magical: Game development is one of the few fields where so many different disciplines must come together. You need incredible engineering but you also need fantastic art. You need design, you need business and production talent and knowledge. It really takes all these things to make an effective game and, as a result, as a game developer, you just naturally become well rounded. You get to explore all these different disciplines that might not be your main discipline. You are constantly learning, constantly interacting with other people, learning what they care about, what is important for other disciplines and, as a result, you get a much wider view of the world. It’s a good feeling.
 
-### What games are you most inpsired by?
+### What games are you most inspired by?
 > I play a ton of games, so I try and take techniques from as many of them as I can. I am playing through Earthbound right now and one thing it is teaching me is the value of interesting text and dialog. You’ll find that Goodbye Groundhog has a lot of dialog in it in part because it is a relatively cheap way to fill a game with content. In terms of games that I am most inspired by, I really like games that are cuter, kind of goofy and full of energy. Games like Gitaroo Man and Elite Beat Agents. I also really like horror games and the emotion they are able to bring out of you. Games like Alien Isolation. The unpredictable nature of that game always has you guessing.
 
 ### What has been your favorite game to work on?
