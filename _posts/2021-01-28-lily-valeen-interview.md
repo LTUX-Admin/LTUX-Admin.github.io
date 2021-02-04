@@ -27,7 +27,7 @@ In the run up to this year's event, we are conducting a series of interviews wit
 ### What got you started in game development?
 > Honestly, whenever I finish playing a great game, I think... "I would love to make something that makes someone else feel that way!" And so I've always wanted to create stuff. When I was 10 or so, I filled up a notebook with a homemade tabletop RPG to play with my friends. We stole all the dice from Monopoly and stayed up late playing it. When I was a teenager I was really interested in webcomics. I tried to make my own, but didn't have the patience for art. Then one day I found out about RPG Maker 2003 and immediately dove into it. I spent years trying to make big, epic RPGs, but of course I never finished them.
 
-### What games are you most inpsired by?
+### What games are you most inspired by?
 > Too many to remember! I know Link's Awakening was the most awe-inspiring game I played when I was a kid. And in college, my professor had us play a small Unity game called "Sarah's Run" by Sophie Houlden. That was kind of the moment when it hit me that a single person could create a really cool game. Nowadays I mostly get inspired by indie games, because that's often where you see the weird twists on gameplay and also the most personal stories... stuff like Minit, or We Know The Devil.
 
 > Outer Wilds! Outer Wilds is one of those games that took a cool idea like a time loop and made it into this wonderfully unique space detective game. I love seeing stuff like that.
