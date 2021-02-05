@@ -4,8 +4,8 @@ title:  "Interview with Lily Valeen"
 date:   2021-01-28 15:00 -0500
 ---
 
-<div style="text-align: center; width: 100%">
-<img src="/img/blog/interview-header.png"/>
+<div style="text-align: center;">
+<img style="width: 100%;" src="/img/blog/interview-header.png"/>
 </div>
 <br>
 
@@ -14,7 +14,7 @@ Get to Know Who's Who At GLGX 2021!
 In the run up to this year's event, we are conducting a series of interviews with presenters at Great Lakes Game Expo. We hope to channel from all corners of game development to present you with the best experience possible. So please enjoy getting to know our wonderful speakers!
 
 <div style="text-align: center">
-<img src="/img/speakers/lily.jpg" />
+<img style="width: 18rem;" src="/img/speakers/lily.jpg" />
 </div>
 <!--more-->
 
