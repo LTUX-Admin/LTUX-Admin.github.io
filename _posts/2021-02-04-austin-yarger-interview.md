@@ -22,7 +22,7 @@ In the run up to this year's event, we are conducting a series of interviews wit
 > I have actually submitted two games, one of them is entirely made by Arbor Interactive. That one is Goodbye Groundhog, a game in which you are framed for causing an eternal winter. The groundhogs are pinned for extending winter so long that the animal community is starving and hurting. You’ll need to defend yourself from a very desperate and increasingly agitated mob. You’ve got to warm their hearts, find your daughter and turn the tables. It’s a tower defense game that is highly mobile and not particularly long. It was made for the Locally Sourced Michigan Winter Game Bundle ([Link](https://itch.io/b/786/locally-sourced-winter-bundle)). I hope you only encounter a handful of bugs while playing it, but I think it's a good experience for the cost, and I am fairly proud of it.
 
 <div style="text-align: center">
-<img style="width: 18rem;" src="/img/games/goodbyegroundhog.png" />
+<img style="width: 100%;" src="/img/games/goodbyegroundhog.png" />
 </div>
 <br>
 
