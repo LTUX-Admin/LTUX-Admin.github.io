@@ -13,9 +13,10 @@ Get to Know Who's Who At GLGX 2021!
 -----------------------------------
 In the run up to this year's event, we are conducting a series of interviews with presenters at Great Lakes Game Expo. We hope to channel from all corners of game development to present you with the best experience possible. So please enjoy getting to know our wonderful speakers!
 
-<div style="text-align: center;">
+<div style="text-align: center; width: 2 rem;">
 <img src="/img/speakers/mars.png" />
 </div>
+<br>
 <!--more-->
 
 ### Who are you?
@@ -27,6 +28,7 @@ In the run up to this year's event, we are conducting a series of interviews wit
 <div style="text-align: center;">
 <img src="/img/games/gunsheath.png" />
 </div>
+<br>
 
 ### What got you started in game development?
 > Legos and the games I played growing up. I've always tinkered and tweaked and tried to use games as a means to creatively express myself. A few years back my Mom presented me with boxes from storage full of notebooks I filled with alternate rules for card games, board games I designed, or characters and stories I wrote. I was always looking to games as an outlet. Eventually I got into a 2 year BFA in Game Production and was already modding games like Oblivion or working on homebrew projects like Smash GP in my spare time. A month after I graduated I was given an opportunity to teach a course at ITT. I would teach and work on projects outside of that time, gradually making enough connections to find the opportunities to do so! 
