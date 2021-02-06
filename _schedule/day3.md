@@ -35,5 +35,10 @@ talks:
             Student-led Production Studios
         speaker: Amber Renton
         time: 7:00 PM
+    - 
+        name: | 
+            The Benefit of Small Games for a Small Studio
+        speaker: Jordan Ajlouni
+        time: 7:30 PM
         
 ---
