@@ -1,0 +1,27 @@
+.title-header
+{
+  height: 20rem;
+  margin-top: 6rem;
+  padding-bottom: 0;
+
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/backdrop.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.pb-200
+{
+  padding-bottom: 200px;
+}
+.organizer-container
+{
+  max-width: 80% !important;
+}
+
+@media (max-width: 1024px) {
+  .organizer-container
+  {
+    max-width: 100%;
+  }
+}

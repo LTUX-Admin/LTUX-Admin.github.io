@@ -9,11 +9,15 @@ sass:
   style: compressed
   sass_dir: css
 collections:
+  organizers:
+    output: false
   games:
     output: false
   speakers:
     output: true
   streamers:
+    output: false
+  schedule:
     output: false
 
 plugins:

@@ -1,0 +1,33 @@
+<div class="container pb-2">
+    <div class="section-header mb-100">
+        <h2 class="pixelText">Speakers</h2>
+        <hr class="divider"/>
+        <!--            <p>Come listen to them talk!</p>-->
+    </div>
+    <div class="row">
+        {% for s in site.speakers %}
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card speaker-card">
+                <a href="{{s.url}}"><img src="{{s.img}}" class="card-img-top" /></a>
+                <div class="card-body">
+                    <h5 class="card-title mb-2">{{s.name}}</h5>
+                    <div class="card-text mb-3">{{s.short_description}}</div>
+                    <small><a class="color-orange" href="{{s.url}}">See More...</a> </small>
+                </div>
+                <div class="card-footer text-muted">
+                    <ul class="social-list list-inline mb-0">
+                        {% for social in s.social %}
+                        <li class="list-inline-item"><a class="" href="{{social.url}}" target="_blank"><i class="{{social.icon}}"></i></a></li>
+                        {% endfor %}
+
+                    </ul><!--//social-list-->
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        <div class="col-12 text-center">
+            <p><small>Want to become a speaker? Deadline closes February 7th, 2021!</small></p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeVNU7D5KBIcMN3dcX2OUMkFi4b2gANr2pUonc2EnzSeiUPw/viewform" target="_blank" class="btn btn-sm btn-info">Submit a Talk/Panel</a>
+        </div>
+    </div>
+</div>

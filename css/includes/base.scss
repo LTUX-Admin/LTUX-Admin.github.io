@@ -129,7 +129,11 @@ body,html{
 }
 footer small
 {
-  font-size: 18px;
+  font-size: 14px;
+  a.color-orange:hover{
+    color: #f1ad82;
+    text-decoration: none;
+  }
 }
 
 .bottom-footer

@@ -1,0 +1,50 @@
+.schedule-nav-link
+{
+  transition: 0.3s;
+  &:hover
+  {
+    color:#7C898B !important;
+  }
+  &.active:after
+  {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: solid 3px #912F56;
+  }
+}
+.schedule-row
+{
+  transition: 0.7s;
+  &:hover
+  {
+    background-color: rgba(255,255,255, .2);
+  }
+}
+.tab-content
+{
+  font-size: 22px;
+}
+.schedule-times
+{
+  border-radius: 10px;
+}
+
+.talk-border
+{
+  border-bottom: darkgray 1px solid;
+}
+
+@media (max-width: 425px) {
+  .tab-content
+  {
+    font-size: 18px;
+  }
+  .schedule-nav-link
+  {
+    font-size: 14px;
+    padding: 5px;
+  }
+}

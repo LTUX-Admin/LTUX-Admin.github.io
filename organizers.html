@@ -1,0 +1,45 @@
+---
+layout: default
+title: Organizers
+---
+<header class="title-header">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center  text-center">
+            <div class="col-12 align-items-center">
+                <h1 class="text-white pixelText">{{page.title}}</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="page-section">
+    <div class="container organizer-container pb-200">
+        <div class="row">
+            {% for o in site.organizers %}
+            <div class="col-sm-12 col-md-6 mb-4">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <img src="{{o.img}}" style="width: 100%"/>
+                    </div>
+                    <div class="col-sm-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 class="pixelText color-orange">{{ o.name }}</h4>
+                            </div>
+                            <div class="col-12 mb-2">
+                                <div class="speaker-social">
+                                    {% for s in o.social %}
+                                    <a class="" href="{{s.url}}" target="_blank"><i class="fab {{s.icon}}"></i></a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                {{ o.description }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
