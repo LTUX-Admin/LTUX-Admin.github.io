@@ -18,6 +18,16 @@
 {
   max-width: 80% !important;
 }
+.talk-description
+{
+  font-size: 14px;
+}
+.talk-name{
+  font-size: 16px;
+  small{
+    font-weight: bolder;
+  }
+}
 
 @media (max-width: 1024px) {
   .organizer-container
