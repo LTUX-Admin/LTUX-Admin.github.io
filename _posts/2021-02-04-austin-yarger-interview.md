@@ -13,6 +13,10 @@ Get to Know Who's Who At GLGX 2021!
 -----------------------------------
 In the run up to this year's event, we are conducting a series of interviews with presenters at Great Lakes Game Expo. We hope to channel from all corners of game development to present you with the best experience possible. So please enjoy getting to know our wonderful speakers!
 
+<div style="text-align: center;" width="480">
+<img style="width: 18rem;" src="/img/speakers/austin.png" />
+</div>
+<br>
 <!--more-->
 
 ### Who are you?
@@ -49,9 +53,3 @@ In the run up to this year's event, we are conducting a series of interviews wit
 > As far as the industry goes, I mainly think about the local industry, I have been very pleased with the growth we have seen in the local Michigan game development industry. Something that I am really interested in is how we can get these local, part time game developers to the point where they can sustain themselves, sustain their families, and justify working on games as a full time job. That becomes a total game changer for that developer and also everyone that interacts with that developer. You generate a lot of knowledge and expertise when you are working on those problems for eight hours a day. If we could only get to that point, I feel that we can start a positive feedback loop in this area where cost of living is pretty nice, talent exists and that causes people to move here which causes additional talent to come in and studios to set up a satellite office; this is the kind of thing where it is conceivable that we could be something like Madison, Wisconsin in the next five to ten years. We just have to find a way to get a couple moderate hits out of this community. I think if you look at some of the teams around here that have had some really good hits, like Redact Games, Bowlcut Studios and Gaudium, you’ll find that these games are fantastic. They look great. They have clearly gone to a new level of professionalism where it is very hard to distinguish them from the best selling indies games on the market. We need more of that.
 
 Tune in for GLGX 2021 to hear more from Austin and our other presenters! We will be live from the 18th to the 21st of February on [Twitch](https://twitch.tv/glgexpo). 
-
-There is still time to sign up to present as well! 
-
-[Sign up to present a talk/panel](https://docs.google.com/forms/d/e/1FAIpQLSdeVNU7D5KBIcMN3dcX2OUMkFi4b2gANr2pUonc2EnzSeiUPw/viewform)
-
-[Sign up to have your game trailer shown](https://docs.google.com/forms/d/e/1FAIpQLSe_knD0XFIm6ziTMWG8_aRhLJ8e7lv1aaKqRYf6Tj0KXPoR7A/viewform)
