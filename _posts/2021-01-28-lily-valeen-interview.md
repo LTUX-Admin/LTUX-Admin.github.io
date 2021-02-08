@@ -44,9 +44,3 @@ In the run up to this year's event, we are conducting a series of interviews wit
 > Oh jeez, that's difficult. I think the game industry has adopted a lot of horrible practices from older industries. A huge portion of the industry is very set in their ways and afraid of anything they consider a risk. I think that mentality leads to everything from crunch, to a lack of diversity in both audience and developers, to games & stories that feel flat before they're even released. You see this all the time in AAA companies, but it's still common in smaller developers, too. So if I had to sum it up... greed, or a fear of change.
 
 Tune in for GLGX 2021 to hear more from Lily and our other presenters! We will be live from the 18th to the 21st of February on [Twitch](https://twitch.tv/glgexpo). 
-
-There is still time to sign up to present as well! 
-
-[Sign up to present a talk/panel](https://docs.google.com/forms/d/e/1FAIpQLSdeVNU7D5KBIcMN3dcX2OUMkFi4b2gANr2pUonc2EnzSeiUPw/viewform)
-
-[Sign up to have your game trailer shown](https://docs.google.com/forms/d/e/1FAIpQLSe_knD0XFIm6ziTMWG8_aRhLJ8e7lv1aaKqRYf6Tj0KXPoR7A/viewform)
