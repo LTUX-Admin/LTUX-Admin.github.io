@@ -42,10 +42,4 @@ In the run up to this year's event, we are conducting a series of interviews wit
 ### What do you think is the most important problem the game industry faces today?
 > One of the first panels I was on posed a question about getting into the industry and whether or not a job like Quality Assurance was a good stepping stone to do so. Folks in the panel and audience agreed, which completely dismissed the relevance of Quality Assurance as a key role and cast shadow over it as if it was only there for beginners, newbies, or people who couldn't do anything else. This isn't the case. This dated mentality and tone of "how things are" has caused a lot of the issues we see ourselves or hear about in the news. A lack of diversity, harassment, production methodologies that accept or encourage crunch or excessive work hours, you name it. As new generations enter the industry and thoughtful leaders work to inform, be more inclusive, and create more safe and healthy working environments I'm hopeful this will change.
 
-Tune in for GLGX 2021 to hear more from Mars and our other presenters! We will be live from the 18th to the 21st of February on [Twitch](https://twitch.tv/glgexpo). 
-
-There is still time to sign up to present as well! 
-
-[Sign up to present a talk/panel](https://docs.google.com/forms/d/e/1FAIpQLSdeVNU7D5KBIcMN3dcX2OUMkFi4b2gANr2pUonc2EnzSeiUPw/viewform)
-
-[Sign up to have your game trailer shown](https://docs.google.com/forms/d/e/1FAIpQLSe_knD0XFIm6ziTMWG8_aRhLJ8e7lv1aaKqRYf6Tj0KXPoR7A/viewform)
+Tune in for GLGX 2021 to hear more from Mars and our other presenters! We will be live from the 18th to the 21st of February on [Twitch](https://twitch.tv/glgexpo).
