@@ -37,4 +37,4 @@ In the run up to this year's event, we are conducting a series of interviews wit
 ### What do you think is the most important problem the game industry faces today?
 > Labor! The game industry has and has had a labor problem for a really long time. I've spent time while still in school working as a labor organizer to help spread awareness and at the very least, start a conversation around the issue where it might not have happened on it's own for a while and even though I've had to step down due to the fact I'm looking at applying for grad school soon, I still feel just as strongly about it today.
 
-Tune in for GLGX 2021 to hear more from Mars and our other presenters! We will be live from the 18th to the 21st of February on [Twitch](https://twitch.tv/glgexpo). 
+Tune in for GLGX 2021 to hear more from Spencer and our other presenters! We will be live from the 18th to the 21st of February on [Twitch](https://twitch.tv/glgexpo). 
