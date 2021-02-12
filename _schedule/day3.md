@@ -18,10 +18,8 @@ talks:
             I'd like to tell you the story of my first published game, Endangered, and how I learned that changing your approach to game design is essential to getting noticed.
         time: 12:00 PM
     - 
-        name: Misanthropic Mechanics OR How To Find Your Game's Core And Also Make Games Faster Too!
-        description: |
-            Have your games ever felt like a jumbled mess? Let's talk about thrifty design and how to sharpen your game to a razor's edge!
-        speaker: Lily Valeen
+        name: Make Games and Live Where You Want!
+        speaker: Chris Totten
         time: 1:00 PM
     - 
         name: Mage Quit Tournament
@@ -31,6 +29,11 @@ talks:
         name: Streamer Bee & Pond
         speaker: Rianna Bee & Chase Pond
         time: 3:00 PM
+    - 
+        name: | 
+            Running a Kickstarter Campaign
+        speaker: Natalie Fang
+        time: 5:00 PM
     - 
         name: | 
             Indie Survival Guide : Sustainability Techniques for Small Midwestern Studios
@@ -53,5 +56,11 @@ talks:
             I will go over how Oil Leak Games was founded on small games and how small game cycles saved our two person studio a lot of time in finding our team dynamic, defining our brand, and developing our skills.
         speaker: Jordan Ajlouni & Rachelle Viola
         time: 7:30 PM
+    -
+        name: Misanthropic Mechanics OR How To Find Your Game's Core And Also Make Games Faster Too!
+        description: |
+            Have your games ever felt like a jumbled mess? Let's talk about thrifty design and how to sharpen your game to a razor's edge!
+        speaker: Lily Valeen
+        time: 8:30 PM
         
 ---

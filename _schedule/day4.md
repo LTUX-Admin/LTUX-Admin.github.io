@@ -41,6 +41,11 @@ talks:
         time: 5:00 PM
     - 
         name: |
+            Productivity Workshop: Informing Your Process with Worklogs
+        speaker: Sam Seltzer-Johnston
+        time: 6:00 PM
+    - 
+        name: |
             Stream Night / Closing Ceremonies 
         speaker: GLGX Team
         time: 7:00 PM
