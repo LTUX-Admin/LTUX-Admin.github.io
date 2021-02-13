@@ -32,6 +32,8 @@ talks:
     - 
         name: | 
             Running a Kickstarter Campaign
+        description: |
+            Running a successful Kickstarter can be a big undertaking, but for many founders, it also can be easier and more rewarding than other funding methods. Join us in discussing ways to prepare for a campaign launch and seeing it through!
         speaker: Natalie Fang
         time: 5:00 PM
     - 
