@@ -42,6 +42,8 @@ talks:
     - 
         name: |
             Productivity Workshop: Informing Your Process with Worklogs
+        description: |
+            Ever wonder where the time goes? Can we min-max productivity? Let's look at a methodology for spotting inefficiencies in your process and keeping things on-track.
         speaker: Sam Seltzer-Johnston
         time: 6:00 PM
     - 
