@@ -19,6 +19,8 @@ talks:
         time: 12:00 PM
     - 
         name: Make Games and Live Where You Want!
+        description: |
+            Lots of people think that it’s challenging to make a living making games away from a “hub”, but in this talk, a veteran game developer and instructor guides you through steps he’s taken to make it work.
         speaker: Chris Totten
         time: 1:00 PM
     - 
