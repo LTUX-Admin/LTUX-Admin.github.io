@@ -17,16 +17,55 @@ $(document).ready(()=>{
             + '<span>%D</span> days '));
     });
     $('.shuffle').shuffleChildren();
-    // $(window).scroll(function() {
-    //     var scroll = $(window).scrollTop();
-    //
-    //     if (scroll >= 500) {
-    //         $("#mainNav").addClass("navbar-dark");
-    //     }
-    //     else
-    //     {
-    //         $("#mainNav").removeClass("navbar-dark");
-    //     }
-    // });
+
+    this.checkTwitchStreaming();
 
 });
+function checkTwitchStreaming()
+{
+    var time = moment();
+
+    var startDay = moment('2021-02-18');
+    var endDay = moment('2021-02-21');
+
+    if(!time.isBetween(startDay, endDay, null, '[]'))
+        return;
+
+    var twitchHolder = $('#twitch');
+    var mainMasthead = $('#main-masthead');
+
+    var format = 'HH:mm:ss';
+
+    var startThurFriday = moment('19:00:00', format);
+    var start = moment('11:00:00', format);
+    var end = moment('22:00:00', format);
+
+    if([6,7].indexOf(time.isoWeekday()) >= 0)
+    {
+        if(time.isBetween(start, end, null, '[]'))
+        {
+            twitchHolder.show();
+            mainMasthead.hide();
+        }
+    }
+    else
+    {
+        if(time.isBetween(startThurFriday, end, null, '[]'))
+        {
+            twitchHolder.show();
+            mainMasthead.hide();
+        }
+    }
+
+    if(twitchHolder.is(':visible'))
+    {
+        new Twitch.Embed("twitch-embed", {
+            width:'100%',
+            height:'100%',
+            channel: "glgexpo",
+            // only needed if your site is also embedded on embed.example.com and othersite.example.com
+        });
+    }
+
+}
+
