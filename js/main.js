@@ -36,7 +36,7 @@ function checkTwitchStreaming()
 
     var format = 'HH:mm:ss';
 
-    var startThurFriday = moment('19:00:00', format);
+    var startThurFriday = moment('18:55:00', format);
     var start = moment('11:00:00', format);
     var end = moment('22:00:00', format);
 
