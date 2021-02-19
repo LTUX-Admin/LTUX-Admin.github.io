@@ -17,8 +17,9 @@
         </div>
         <div class="col-12">
             <div class="tab-content color-white schedule-times">
+                {% assign today = "now" | date: "%Y-%m-%d" %}
                 {% for s in site.schedule %}
-                <div class="tab-pane fade in {% if forloop.index == 1 %} active show {% endif %}" id="{{s.tab-name}}">
+                <div class="tab-pane fade in {% if s.date == today %} active show {% endif %}" id="{{s.tab-name}}">
                     {% for talk in s.talks %}
                         <div class="row m-0 schedule-row {% if forloop.last == false %}talk-border{% endif %}">
                             <div class="col-4 pb-2 pt-2">
