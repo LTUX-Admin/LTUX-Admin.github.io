@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interview with Jordan Ajouni and Rachelle Viola"
+title:  "Interview with Jordan Ajlouni and Rachelle Viola"
 date:   2021-02-20 15:00 -0500
 ---
 
