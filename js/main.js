@@ -26,7 +26,7 @@ function checkTwitchStreaming()
     var time = moment();
 
     var startDay = moment('2021-02-18');
-    var endDay = moment('2021-02-21');
+    var endDay = moment('2021-02-22');
 
     if(!time.isBetween(startDay, endDay, null, '[]'))
         return;
