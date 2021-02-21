@@ -48,7 +48,7 @@ talks:
         time: 6:00 PM
     - 
         name: |
-            Stream Night / Closing Ceremonies 
+            Closing Ceremonies 
         speaker: GLGX Team
         time: 7:00 PM
         
