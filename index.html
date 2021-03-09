@@ -4,32 +4,23 @@ layout: default
 
 {% include masthead.html %}
 
-<section id="about" class="page-section white-spike blue-bg">
+<section id="about" class="page-section blue-bg">
     <div class="container">
         <div class="section-header pb-80">
             <h2 class="pixelText">About Us</h2>
             <hr class="divider"/>
-            <p class="color-white pb-3">Great Lakes Game Expo (GLGX) is an online game design and development expo organized by a <a class="color-orange" href="/organizers">group of coordinators</a> from midwest game communities. It strives to promote the work of our industry at all of its scales, highlighting the leaders and innovators as much as the hobbyists and tinkerers. Through talks and game showcases GLGX elevates the work of the midwest industry and provides new opportunities and outlets for disseminating the work of anyone working on games.</p>
-            <a href="https://discord.gg/vpFXgxNxKn" class="glgx-follow-button" target="_blank"><img src="/img/discord.png"/> </a>
-            <a href="https://twitch.tv/glgexpo" class="glgx-follow-button" target="_blank"><img src="/img/twitch.png"/> </a>
+            <p class="color-white pb-3">{{site.about_blob}}</p>
         </div>
     </div>
 </section>
 
-<section id="speakers" class="page-section section-white-bg blue-spike ">
+<section id="speakers" class="page-section section-white-bg ">
     {% include speakers.html %}
 </section>
 
-<section id="schedule" class="page-section blue-bg white-spike ">
+<section id="schedule" class="page-section blue-bg">
     {% include schedule.html %}
 </section>
 
-<section id="streamers" class="page-section section-white-bg blue-spike ">
-    {% include streamers.html %}
-</section>
-
-<section id="games" class="page-section blue-bg">
-    {% include games.html %}
-</section>
 
 

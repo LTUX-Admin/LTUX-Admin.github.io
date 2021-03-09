@@ -45,7 +45,8 @@ body,html{
 }
 .blue-bg
 {
-  background-color: rgb(40,68,116);
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../../img/section2.png");
+  background-size: cover;
 }
 .section-white-bg
 {
@@ -117,7 +118,7 @@ body,html{
   padding-top: 6.5rem;
   padding-bottom: 0;
 
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/backdrop.png");
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://via.placeholder.com/1024");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

@@ -2,6 +2,23 @@ permalink: "/blog/:year/:month/:day/:slug"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+## Site Info
+title: LTUX
+about_blob: |
+  Maecenas sit amet ante nec nulla aliquet hendrerit non ut lacus. Donec sollicitudin vestibulum nisl, et fringilla mi porta eu. Nam non ligula elementum risus maximus sagittis. Maecenas in urna feugiat, eleifend ipsum vel, facilisis nunc. Duis vulputate nunc vitae elit rutrum, in auctor metus posuere. Sed in ex rhoncus, ornare eros nec, condimentum velit. Proin gravida neque id mollis lobortis. Nulla in iaculis tortor. Maecenas cursus quis odio eget imperdiet. Sed sed bibendum risus. Ut facilisis, magna eu sodales vestibulum, erat leo placerat magna, eget malesuada neque dolor eget mi. Nullam interdum ex nec pulvinar pulvinar.
+copyright_name: LTUX
+contact_email: example@example.com
+
+masthead_tile_text: LTUX Gaming Convention
+start_date: April 20th, 2021
+end_date: April 22nd, 2021
+
+twitter: https://twitter.com
+facebook:
+twitch:
+email_subscribe:
+
+# End Site Info
 paginate: 5
 paginate_path: "/blog/post:num/"
 excerpt_separator: <!--more-->
@@ -9,14 +26,8 @@ sass:
   style: compressed
   sass_dir: css
 collections:
-  organizers:
-    output: false
-  games:
-    output: false
   speakers:
     output: true
-  streamers:
-    output: false
   schedule:
     output: false
 
