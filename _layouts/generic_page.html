@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="page-section section-white-bg">
+    {% if page.mainTitle %}
+    <div class="section-header mb-100">
+        <h2 class="pixelText">{{page.mainTitle}}</h2>
+        <hr class="divider"/>
+    </div>
+    {% endif %}
+    <div class="{% if page.full %} container-fluid {% else %} container {% endif %} pb-175">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-12">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

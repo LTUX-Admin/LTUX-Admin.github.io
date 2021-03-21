@@ -16,7 +16,7 @@
             </ul>
         </div>
         <div class="col-12">
-            <div class="tab-content color-white schedule-times">
+            <div class="tab-content {% if page.black %} color-black {% else %} color-white {% endif %} schedule-times">
                 {% for s in site.schedule %}
                 <div class="tab-pane fade in {% if forloop.index == 1 %} active show {% endif %}" id="{{s.tab-name}}">
                     {% for talk in s.talks %}

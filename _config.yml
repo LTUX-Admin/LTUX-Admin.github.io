@@ -26,6 +26,8 @@ sass:
   style: compressed
   sass_dir: css
 collections:
+  games:
+    output: false
   speakers:
     output: true
   schedule:
