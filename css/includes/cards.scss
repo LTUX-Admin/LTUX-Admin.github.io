@@ -8,7 +8,7 @@
 }
 .game-card p
 {
-  color:#F39C6B;
+  color:$light-purple;
   //font-family: 'Press Start 2P', cursive;
   font-size: 20px;
   padding-top: 4px;
@@ -22,7 +22,7 @@
 /*Cards*/
 .card
 {
-  border-color:rgb(40,68,116);
+  border-color:$blue-1;
   border-width: 1px;
 }
 .card-title{
@@ -31,9 +31,9 @@
 }
 .social-list a
 {
-  color:#F39C6B;
+  color:$white-blue;
 }
 .card-footer
 {
-  background-color: rgb(40,68,116);
+  background-color: $blue-1;
 }

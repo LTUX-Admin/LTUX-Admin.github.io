@@ -9,15 +9,15 @@
 }
 .navbar-dark
 {
-  background-color: #202225 !important;
+  background-color: $white-blue !important;
 }
 .nav-link
 {
-  color:#F39C6B !important;
+  color:$blue-1 !important;
   font-weight: 900;
   text-transform: uppercase;
 }
 .nav-link:hover
 {
-  color:#7C898B !important;
+  color:$light-purple !important;
 }

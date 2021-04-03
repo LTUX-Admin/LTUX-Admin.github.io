@@ -25,7 +25,7 @@ body,html{
 {
   font-weight: 900;
   text-transform: uppercase;
-  color:#F39C6B;
+  color:$blue-1;
 }
 .page-section
 {
@@ -35,13 +35,13 @@ body,html{
 {
   max-width: 5rem;
   border-width: 0.2rem;
-  border-color:#912F56;
+  border-color:$light-purple;
 }
 .divider-long
 {
   max-width: 9rem;
   border-width: 0.2rem;
-  border-color:#912F56;
+  border-color:$light-purple;
 }
 .blue-bg
 {

@@ -1,39 +1,40 @@
-permalink: "/blog/:year/:month/:day/:slug"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-## Site Info
+permalink: '/blog/:year/:month/:day/:slug'
+baseurl: ''
+url: ''
 title: LTUX
-about_blob: |
-  Maecenas sit amet ante nec nulla aliquet hendrerit non ut lacus. Donec sollicitudin vestibulum nisl, et fringilla mi porta eu. Nam non ligula elementum risus maximus sagittis. Maecenas in urna feugiat, eleifend ipsum vel, facilisis nunc. Duis vulputate nunc vitae elit rutrum, in auctor metus posuere. Sed in ex rhoncus, ornare eros nec, condimentum velit. Proin gravida neque id mollis lobortis. Nulla in iaculis tortor. Maecenas cursus quis odio eget imperdiet. Sed sed bibendum risus. Ut facilisis, magna eu sodales vestibulum, erat leo placerat magna, eget malesuada neque dolor eget mi. Nullam interdum ex nec pulvinar pulvinar.
+about_blob: >
+  LTUX is an annual campus-wide expo at Lawrence Technological University that
+  combines anime, games, and eSports events to present the latest and greatest
+  student projects, local game developers, business partners, cosplay
+  competitions, eSports tournaments, talks, panels, and more! Advised by
+  Assistant Professor of Game Design Mars Ashton & Game Software Development
+  Lecturer Jose Gonzalez-Belmonte, student leaders pool their resources together
+  each year to provide a free celebration of everything LTU has to offer. Great
+  work, a friendly and welcoming studio culture, and amazing potential.
 copyright_name: LTUX
-contact_email: example@example.com
-
+contact_email: support@ltux.games
 masthead_tile_text: LTUX Gaming Convention
-start_date: April 20th, 2021
-end_date: April 22nd, 2021
-
-twitter: https://twitter.com
-facebook:
-twitch:
-email_subscribe:
-
-# End Site Info
+start_date: 'April 19th, 2021'
+end_date: 'April 24th, 2021'
+twitter: 'https://twitter.com/LTUExpo'
+facebook: 'https://www.facebook.com/ltuexpo'
+linkedin: 'https://www.linkedin.com/company/ltux'
+email_subscribe: null
 paginate: 5
-paginate_path: "/blog/post:num/"
+paginate_path: '/blog/post:num/'
 excerpt_separator: <!--more-->
 sass:
   style: compressed
   sass_dir: css
 collections:
+  organizers:
+    output: false
   games:
     output: false
   speakers:
     output: true
   schedule:
     output: false
-
 plugins:
   - jekyll-feed
   - jekyll-paginate
-
