@@ -47,6 +47,7 @@ body,html{
 {
   background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../../img/section2.png");
   background-size: cover;
+  background-position: center;
 }
 .section-white-bg
 {
@@ -118,7 +119,7 @@ body,html{
   padding-top: 6.5rem;
   padding-bottom: 0;
 
-  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://via.placeholder.com/1024");
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/backgrounds/BLUE_cubesF.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
