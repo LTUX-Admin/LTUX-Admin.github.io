@@ -1,9 +1,11 @@
 <div class="container-fluid pb-80">
+    {% unless page.mainTitle %}
     <div class="section-header mb-100">
         <h2 class="pixelText">Games</h2>
         <hr class="divider"/>
         <!--            <p class="color-white">Check these out!</p>-->
     </div>
+    {% endunless %}
     <div class="row shuffle">
         {% for g in site.games %}
         <div class="col-12 col-md-4 ">

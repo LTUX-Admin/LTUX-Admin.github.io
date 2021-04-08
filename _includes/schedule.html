@@ -1,9 +1,11 @@
-<div class="container pb-80">
+<div {% if page.mainTitle %} style="min-height: 500px" {% endif %} class="container pb-80">
+    {% unless page.mainTitle %}
     <div class="section-header mb-100">
         <h2 class="pixelText">Schedule</h2>
         <hr class="divider"/>
         <p class="color-white"></p>
     </div>
+    {% endunless %}
     <div class="row">
         <div class="col-12 mb-3">
             <ul class="nav nav-fill">

@@ -1,8 +1,8 @@
 ---
 title: Day5
-name: Friday
+name: April 23rd
 tab-name: day5
-date: '2021-04-23 19:00:00'
+date: '2021-04-23 00:00:00'
 talks:
 - name: Speaker 3
   speaker: Emily Rose

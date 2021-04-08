@@ -1,13 +1,19 @@
 ---
 layout: default
 ---
-<section class="page-section section-white-bg">
-    {% if page.mainTitle %}
-    <div class="section-header mb-100">
-        <h2 class="pixelText">{{page.mainTitle}}</h2>
-        <hr class="divider"/>
+
+{% if page.mainTitle %}
+<header class="title-header">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center  text-center">
+            <div class="col-12 align-items-center">
+                <h1 class="text-white pixelText">{{page.mainTitle}}</h1>
+            </div>
+        </div>
     </div>
-    {% endif %}
+</header>
+{% endif %}
+<section class="page-section section-white-bg">
     <div class="{% if page.full %} container-fluid {% else %} container {% endif %} pb-175">
         <div class="row">
             <div class="col-sm-12">

@@ -1,9 +1,11 @@
 <div class="container pb-2">
+    {% unless page.mainTitle %}
     <div class="section-header mb-100">
         <h2 class="pixelText">Speakers</h2>
         <hr class="divider"/>
         <!--            <p>Come listen to them talk!</p>-->
     </div>
+    {% endunless %}
     <div class="row shuffle">
         {% for s in site.speakers %}
         <div class="col-12 col-md-6 col-lg-4 mb-4">

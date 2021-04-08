@@ -1,8 +1,8 @@
 ---
 title: Day4
-name: Thursday
+name: April 22nd
 tab-name: day4
-date: '2021-04-22 19:00:00'
+date: '2021-04-22 00:00:00'
 talks:
 - name: Speaker 2
   speaker: Nate Berens

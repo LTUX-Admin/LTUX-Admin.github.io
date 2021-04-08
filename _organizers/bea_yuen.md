@@ -1,10 +1,7 @@
 ---
 title: Bea_yuen
 name: Bea Yuen
-img: "/img/coordinators/bea_yuen.png"
-social:
-- icon: fab fa-twitter
-  url: https://twitter.com/
+img: "/img/coming-soon-square.png"
 coordinator_title: Founder
 ---
 
