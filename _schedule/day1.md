@@ -12,7 +12,7 @@ talks:
 - name: How to Avoid Burnout
   time: 7:30 PM
 - name: How to do Digital Portfolios
-  time: '8:30'
+  time: 8:30 PM
 - name: IGDA Detroit - Ascot Smith
   time: 9:00 PM
 ---
