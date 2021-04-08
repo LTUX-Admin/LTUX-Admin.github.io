@@ -1,8 +1,8 @@
 ---
 title: Day 1
-name: April 18th
+name: Mon, April 19th
 tab-name: day1
-date: '2021-04-19'
+date: '2021-04-19 20:00:00'
 talks:
 - name: Opening/Announcements
   time: 6:00 PM

@@ -1,6 +1,6 @@
 ---
 title: Day6
-name: April 24th
+name: Sat, April 24th
 tab-name: day6
 date: '2021-04-24 00:00:00'
 talks:
