@@ -9,8 +9,10 @@ talks:
 - name: Keynote Talk
   speaker: Cameron Kunzelman
   time: 6:30 PM
-- name: Roundtable Discussions
+- name: How to Avoid Burnout
   time: 7:30 PM
+- name: How to do Digital Portfolios
+  time: '8:30'
 - name: IGDA Detroit - Ascot Smith
   time: 9:00 PM
 ---
