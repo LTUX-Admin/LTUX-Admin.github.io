@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<section class="page-section section-white-bg">
+    <div class="section-header mb-100">
+        <h2 class="pixelText">{% if page.mainTitle %} {{page.mainTitle}}  {% else %} More Details {% endif %}</h2>
+        <hr class="divider"/>
+    </div>
+    <div class="container pb-175">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <img src="{{page.img}}" style="width: 100%"/>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="pixelText color-orange">{{ page.name }}</h4>
+                    </div>
+                    <div class="col-12 mb-2">
+                        <div class="speaker-social">
+                            {% for s in page.social %}
+                            <a class="" href="{{s.url}}" target="_blank"><i class="fab {{s.icon}}"></i></a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        {{ page.description }}
+                    </div>
+                    <div class="col-12">
+                        <hr class="divider-long"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,10 +1,30 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>LTUX Coming Soon!</title>
-        <link rel="icon" href="X.png">
-    </head>
-	<body style="background-color: #4256ce;">
-		<img src="SiteDown.png" style="width: 100%; height: 75%;"></img>
-	</body>
-</html>
+---
+layout: default
+---
+
+{% include masthead.html %}
+
+<section id="about" class="page-section blue-bg">
+    <div class="container">
+        <div class="section-header pb-80">
+            <h2 class="pixelText">About Us</h2>
+            <hr class="divider"/>
+            <p class="color-white pb-3">{{site.about_blob}}</p>
+        </div>
+    </div>
+</section>
+
+<section id="speakers" class="page-section section-white-bg ">
+    {% include speakers.html %}
+</section>
+
+<section id="schedule" class="page-section blue-bg">
+    {% include schedule.html %}
+</section>
+
+<section id="games" class="page-section section-white-bg ">
+    {% include games.html %}
+</section>
+
+
+

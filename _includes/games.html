@@ -1,0 +1,23 @@
+<div class="container-fluid pb-80">
+    {% unless page.mainTitle %}
+    <div class="section-header mb-100">
+        <h2 class="pixelText">Games</h2>
+        <hr class="divider"/>
+        <!--            <p class="color-white">Check these out!</p>-->
+    </div>
+    {% endunless %}
+    <div class="row shuffle">
+        {% for g in site.games %}
+        <div class="col-12 col-md-4 ">
+            <a href="{{g.getLink}}" target="_blank" class="game-card">
+                <img src="{{g.img}}" class="card-img-top" />
+                <p>{{g.maker}} | {{g.name}}</p>
+            </a>
+        </div>
+        {% endfor %}
+<!--         <div class="col-12 text-center text-white">
+            <p><small>Want your game in the conference? Deadline closes February 7th, 2021!</small></p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_knD0XFIm6ziTMWG8_aRhLJ8e7lv1aaKqRYf6Tj0KXPoR7A/viewform" target="_blank" class="btn btn-sm btn-info">Submit a Game/Trailer</a>
+        </div> -->
+    </div>
+</div>

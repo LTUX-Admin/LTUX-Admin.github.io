@@ -1,0 +1,41 @@
+<div {% if page.mainTitle %} style="min-height: 500px" {% endif %} class="container pb-80">
+    {% unless page.mainTitle %}
+    <div class="section-header mb-100">
+        <h2 class="pixelText">Schedule</h2>
+        <hr class="divider"/>
+        <p class="color-white"></p>
+    </div>
+    {% endunless %}
+    <div class="row">
+        <div class="col-12 mb-3">
+            <ul class="nav nav-fill">
+                {% for s in site.schedule %}
+                <li class="nav-item">
+                    <a class="schedule-nav-link nav-link {% if forloop.index == 1 %} active {% endif %}" data-toggle="tab" aria-selected="true" id="{{s.tab-name}}-tab" href="#{{s.tab-name}}">{{s.name}}</a>
+                </li>
+                {% endfor %}
+
+            </ul>
+        </div>
+        <div class="col-12">
+            <div class="tab-content {% if page.black %} color-black {% else %} color-white {% endif %} schedule-times">
+                {% for s in site.schedule %}
+                <div class="tab-pane fade in {% if forloop.index == 1 %} active show {% endif %}" id="{{s.tab-name}}">
+                    {% for talk in s.talks %}
+                        <div class="row m-0 schedule-row {% if forloop.last == false %}talk-border{% endif %}">
+                            <div class="col-4 pb-2 pt-2">
+                                {{talk.time}} EST
+                            </div>
+                            <div class="col-8 pb-2 pt-2">
+                                <h5 class="talk-name">{{talk.name}} {% if talk.speaker %}- <small><i>{{talk.speaker}}</i></small> {% endif %}</h5>
+                                <p class="talk-description">{{talk.description}}</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.permalink
+{
+
+  color:$blue-1;
+  &:hover{
+    text-decoration: none;
+    color:$blue-2;
+  }
+}
+.pb-80{
+  padding-bottom: 80px;
+}
+.mb-100
+{
+  margin-bottom: 100px;
+}
+.center-div
+{
+  position: fixed;
+  width:500px;
+  height:500px;
+  left:50%;
+  top:50%;
+  margin-left: -250px;
+  margin-top: -250px;
+}
+.logo
+{
+  width:200px;
+}
+.social a
+{
+  font-size: 20px;
+  margin: 10px;
+}
+.social a:hover
+{
+  color:lightgray;
+}
+.clock
+{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  margin:15px;
+}
+.btn-info
+{
+  border-color: #F39C6B;
+  background-color: #F39C6B;
+  color:white;
+}
+.btn-info:hover, .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle, .btn-info:focus
+{
+  background-color: #ee8650;
+  border-color: #ee8650;
+}
+a.color-orange:hover{
+  color: #f1ad82;
+  text-decoration: none;
+}
+.glgx-follow-button
+{
+  img {
+    width: 200px;
+  }
+  margin:1rem !important;;
+}

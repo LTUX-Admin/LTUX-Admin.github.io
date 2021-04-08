@@ -1,0 +1,23 @@
+#mainNav{
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+}
+.navbar-light
+{
+  background-color: #FDFFFC !important;
+}
+.navbar-dark
+{
+  background-color: $white-blue !important;
+}
+.nav-link
+{
+  color:$blue-1 !important;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.nav-link:hover
+{
+  color:$light-purple !important;
+}

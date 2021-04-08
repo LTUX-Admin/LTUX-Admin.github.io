@@ -1,0 +1,12 @@
+<div class="container pb-80">
+    <div class="section-header mb-100">
+        <h2 class="pixelText">Streamers</h2>
+        <hr class="divider"/>
+        <!--            <p>Come listen to them talk!</p>-->
+    </div>
+    <div class="row text-center">
+        {% for s in site.streamers %}
+        <a class="m-auto p-2" target="_blank"><img class="w-100" src="{{s.img}}"/></a>
+        {% endfor %}
+    </div>
+</div>

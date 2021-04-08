@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<section class="page-section section-white-bg">
+    <div class="container pb-80">
+
+        <div class="row">
+            <div class="col-12 mb-4">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="pixelText color-orange">{{ page.title }}</h4>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-muted">{{ page.date | date_to_string }}</p>
+
+                    </div>
+                    <div class="col-12">
+                        {{ content }}
+                    </div>
+                    <div class="col-12">
+                        <hr class="divider-long"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

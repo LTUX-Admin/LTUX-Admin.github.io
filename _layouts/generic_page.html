@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% if page.mainTitle %}
+<header class="title-header">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center  text-center">
+            <div class="col-12 align-items-center">
+                <h1 class="text-white pixelText">{{page.mainTitle}}</h1>
+            </div>
+        </div>
+    </div>
+</header>
+{% endif %}
+<section class="page-section section-white-bg">
+    <div class="{% if page.full %} container-fluid {% else %} container {% endif %} pb-175">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-12">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

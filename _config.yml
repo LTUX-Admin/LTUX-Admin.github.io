@@ -1,0 +1,40 @@
+permalink: '/blog/:year/:month/:day/:slug'
+baseurl: ''
+url: ''
+title: LTUX
+about_blob: >
+  LTUX is an annual campus-wide expo at Lawrence Technological University that
+  combines anime, games, and eSports events to present the latest and greatest
+  student projects, local game developers, business partners, cosplay
+  competitions, eSports tournaments, talks, panels, and more! Advised by
+  Assistant Professor of Game Design Mars Ashton & Game Software Development
+  Lecturer Jose Gonzalez-Belmonte, student leaders pool their resources together
+  each year to provide a free celebration of everything LTU has to offer. Great
+  work, a friendly and welcoming studio culture, and amazing potential.
+copyright_name: LTUX
+contact_email: support@ltux.games
+masthead_tile_text: LTUX Gaming Convention
+start_date: 'April 19th, 2021'
+end_date: 'April 24th, 2021'
+twitter: 'https://twitter.com/LTUExpo'
+facebook: 'https://www.facebook.com/ltuexpo'
+linkedin: 'https://www.linkedin.com/company/ltux'
+email_subscribe: null
+paginate: 5
+paginate_path: '/blog/post:num/'
+excerpt_separator: <!--more-->
+sass:
+  style: compressed
+  sass_dir: css
+collections:
+  organizers:
+    output: false
+  games:
+    output: false
+  speakers:
+    output: true
+  schedule:
+    output: false
+plugins:
+  - jekyll-feed
+  - jekyll-paginate

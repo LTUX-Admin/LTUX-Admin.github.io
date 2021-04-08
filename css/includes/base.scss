@@ -1,0 +1,142 @@
+body
+{
+
+  background-color: #FDFFFC;
+  font-family: 'Roboto', sans-serif;
+}
+body,html{
+  height:100%;
+}
+.wrapper
+{
+  position:relative;
+  min-height: 100vh;
+}
+.content-wrapper
+{
+  padding-bottom: 8rem;
+}
+/* SECTIONS AND HEADERS */
+.section-header
+{
+  text-align: center;
+}
+.section-header h2
+{
+  font-weight: 900;
+  text-transform: uppercase;
+  color:$blue-1;
+}
+.page-section
+{
+  padding:8rem 0;
+}
+.divider
+{
+  max-width: 5rem;
+  border-width: 0.2rem;
+  border-color:$light-purple;
+}
+.divider-long
+{
+  max-width: 9rem;
+  border-width: 0.2rem;
+  border-color:$light-purple;
+}
+.blue-bg
+{
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../../img/section2.png");
+  background-size: auto;
+  background-position: center;
+}
+.section-white-bg
+{
+  background-color:#FDFFFC;
+}
+.section-black-bg
+{
+  background-color: black;
+}
+
+.white-spike:after
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  height: 80px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 3;
+  background-image: url("../../img/white-spike.png");
+}
+.black-spike, .white-spike, .blue-spike
+{
+  padding-bottom: 75px !important;
+}
+.blue-spike:after
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  height: 80px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 3;
+  background-image: url("../../img/blue-spike.png");
+}
+
+.black-spike:after
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  height: 80px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 3;
+  background-image: url("../../img/black-spike.png");
+}
+.black-spike-header:before
+{
+  content: "";
+  top:-80px;
+  position: absolute;
+  width: 100%;
+  left: -1px;
+  height: 80px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 3;
+  background-image: url("../../img/black-spike.png");
+}
+.masthead
+{
+  height: 100vh;
+  min-height: 40rem;
+  padding-top: 6.5rem;
+  padding-bottom: 0;
+
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/img/backgrounds/BLUE_cubesF.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.masthead h1
+{
+  font-size: 3.5rem;
+}
+footer small
+{
+  font-size: 14px;
+}
+
+.bottom-footer
+{
+  position: absolute;
+  bottom:0;
+  width:100%;
+}

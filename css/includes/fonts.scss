@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Countdown';
+  src: url('../../fonts/Countdown.woff2') format('woff2'),
+  url('../../fonts/Countdown.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.color-orange {
+  color:$blue-2;
+}
+.color-light
+{
+  color:$white-blue;
+}
+.color-black {
+  color:black;
+}
+.pixelText, .nav-link
+{
+  //font-family: 'Press Start 2P', cursive;
+}
+.color-white, .text-white {
+  color:#FDFFFC;
+}
