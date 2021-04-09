@@ -1,10 +1,16 @@
 ---
-title: Dylan C
+title: Dylan Chapman
 layout: speaker
-name: Dylan C
-short_description: More Details Soon!
-description: More Details Soon!
-img: "/img/coming-soon-square.png"
-social: null
+name: Dylan Chapman
+short_description: Teacher at Grass Lake High School. Co-founder and Vice President
+  of The Michigan High School esports Federation.
+description: Teacher at Grass Lake High School. Co-founder and Vice President of The
+  Michigan High School esports Federation.
+img: "/img/speakers/dylan_chapman.jpeg"
+social:
+- icon: fas fa-globe
+  url: http://MiHSEF.Org
+- icon: fab fa-twitter
+  url: https://twitter.com/MiHSEF
 ---
 
