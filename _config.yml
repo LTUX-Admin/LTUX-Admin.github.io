@@ -33,6 +33,7 @@ collections:
     output: false
   speakers:
     output: true
+    sort_by: order
   schedule:
     output: false
 plugins:
