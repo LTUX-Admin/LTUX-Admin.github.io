@@ -18,5 +18,6 @@ social:
   url: https://twitter.com/LawrenceTechES
 - icon: fab fa-facebook
   url: https://www.facebook.com/LawrenceTechEsports
+order: 1
 ---
 

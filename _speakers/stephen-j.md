@@ -12,5 +12,6 @@ social:
   url: https://twitter.com/dccesports
 - icon: fas fa-globe
   url: http://DCCEsports.com
+order: 1
 ---
 

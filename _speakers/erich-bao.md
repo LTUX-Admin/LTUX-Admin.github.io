@@ -17,5 +17,6 @@ social:
   url: https://www.facebook.com/ggleagues.esports
 - icon: fab fa-linked-in
   url: https://www.linkedin.com/company/ggleagues
+order: 1
 ---
 
