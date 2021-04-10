@@ -7,7 +7,8 @@
     </div>
     {% endunless %}
     <div class="row">
-        {% for s in site.speakers %}
+        {% assign sorted_speakers = site.speakers | sort:"order" %}
+        {% for s in sorted_speakers %}
         <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card speaker-card">
                 <a href="{{s.url}}"><img src="{{s.img}}" class="card-img-top" /></a>
