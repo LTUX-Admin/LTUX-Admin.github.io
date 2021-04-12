@@ -7,7 +7,7 @@ short_description: Teacher at Grass Lake High School. Co-founder and Vice Presid
 description: Teacher at Grass Lake High School. Co-founder and Vice President of The
   Michigan High School esports Federation.
 img: "/img/speakers/dylan_chapman.jpeg"
-order: 0
+order: 1
 social:
 - icon: fas fa-globe
   url: http://MiHSEF.Org

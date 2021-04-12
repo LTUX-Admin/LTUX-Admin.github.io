@@ -2,7 +2,7 @@ permalink: '/blog/:year/:month/:day/:slug'
 baseurl: ''
 url: ''
 title: LTUX
-about_blob: >
+about_blob:
   LTUX is an annual campus-wide expo at Lawrence Technological University that
   combines anime, games, and eSports events to present the latest and greatest
   student projects, local game developers, business partners, cosplay
@@ -11,6 +11,8 @@ about_blob: >
   Lecturer Jose Gonzalez-Belmonte, student leaders pool their resources together
   each year to provide a free celebration of everything LTU has to offer. Great
   work, a friendly and welcoming studio culture, and amazing potential.
+  <br/><br/>
+  This year, LTU Expo is fully online, starting Monday April, 19th at 6:00 PM and running until Saturday, April 24th at 11:59 PM. Watch keynote speakers discuss their experience working in the gaming industry, root for your favorite team in the exciting Esports competition, and try the latest and greatest indie games from our amazing students and local developers. Events include panels, indie game demos, an ExtraLife 24-hour charity stream, and more! Pop in our Discord to interact with other attendees and join the fun. The entire event will be streamed on <a target='_blank' href='https://www.twitch.tv/statechampsesports'>https://www.twitch.tv/statechampsesports</a>.
 copyright_name: LTUX
 contact_email: support@ltux.games
 masthead_tile_text: LTUX Gaming Convention
