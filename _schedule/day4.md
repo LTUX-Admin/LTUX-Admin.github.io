@@ -6,8 +6,8 @@ date: '2021-04-22 00:00:00'
 talks:
 - name: Speaker 3
   speaker: Nate Berens
-  time: 6:00 PM
+  time: 6:00 PM - 7:00 PM
 - name: Integrated Game Studio Showcase
-  time: 7:00 PM
+  time: 7:00 PM - 10:00 PM
 ---
 
