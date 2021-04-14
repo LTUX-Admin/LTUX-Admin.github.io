@@ -10,7 +10,7 @@ description: Ascot Smith is a game & narrative designer, writer,
     and Dave & Busters. Most recently he has designed and wrote multiple 
     Alexa games including Ghostbusters - featuring the voice talents of 
     Dan Aykroyd and Ernie Hudson.
-img: "/img/speakers/ascot_smith.png"
+img: "/img/speakers/ascot_smith.jpg"
 social: null
 order: 1
 ---
