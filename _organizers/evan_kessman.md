@@ -6,7 +6,7 @@ social:
 - icon: fab fa-twitter
   url: https://twitter.com/T3kMast3r
 - icon: fab fa-twitch
-  url: https://www.twitch.tv/t3kmaster
+  url: https://www.twitch.tv/t3kmast3r
 - icon: fab fa-linked-in
   url: https://www.linkedin.com/in/evanakessman/
 - icon: fab fa-itch-io
