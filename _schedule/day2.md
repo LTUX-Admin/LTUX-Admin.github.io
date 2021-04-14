@@ -11,7 +11,12 @@ talks:
     and the details of what running a site like Uppercut actually looks like, including
     our principles, ethics, and methodologies, especially in comparison to other methods
     and outlets in the landscape.
-- name: Thesis Virtual Showcase Tour
-  time: 7:00 PM
+- name: Senior Thesis Showcase
+  time: 7:00 PM - 8:00 PM
+- name: Speaker 2
+  speaker: Tobias Rusjan
+  time: 8:00 PM - 9:00 PM
+- name: Senior Thesis Showcase Part 2
+  time: 9:00 PM - 10:00 PM
 ---
 
