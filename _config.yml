@@ -13,15 +13,21 @@ about_blob:
   work, a friendly and welcoming studio culture, and amazing potential.
   <br/><br/>
   This year, LTU Expo is fully online, starting Monday April, 19th at 6:00 PM and running until Saturday, April 24th at 11:59 PM. Watch keynote speakers discuss their experience working in the gaming industry, root for your favorite team in the exciting Esports competition, and try the latest and greatest indie games from our amazing students and local developers. Events include panels, indie game demos, an ExtraLife 24-hour charity stream, and more! Pop in our Discord to interact with other attendees and join the fun. The entire event will be streamed on <a target='_blank' href='https://www.twitch.tv/statechampsesports'>https://www.twitch.tv/statechampsesports</a>.
+  <br/><br/>
+  <a target='_blank' href='https://www.extra-life.org/participant/Infinite-Machinev'>https://www.extra-life.org/participant/Infinite-Machine</a>
 copyright_name: LTUX
 contact_email: support@ltux.games
 masthead_tile_text: LTUX Gaming Convention
-start_date: 'April 19th, 2021'
-end_date: 'April 24th, 2021'
+start_date: 'April 19th 2021'
+end_date: 'April 24th 2021'
+start_date_code: '2021/04/19'
+end_date_code: '2021/04/24'
 twitter: 'https://twitter.com/LTUExpo'
 facebook: 'https://www.facebook.com/ltuexpo'
 linkedin: 'https://www.linkedin.com/company/ltux'
 email_subscribe: null
+twitch_channel_main: 'https://www.twitch.tv/statechampsesports'
+twitch_channel_charity: 'https://www.twitch.tv/infinitemachineltu'
 paginate: 5
 paginate_path: '/blog/post:num/'
 excerpt_separator: <!--more-->

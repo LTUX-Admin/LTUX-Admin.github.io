@@ -18,6 +18,6 @@ $(document).ready(()=>{
     });
     $('.shuffle').shuffleChildren();
 
-    // this.checkTwitchStreaming();
+    this.checkTwitchStreaming();
 });
 
