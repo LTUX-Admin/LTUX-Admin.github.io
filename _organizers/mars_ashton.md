@@ -9,6 +9,7 @@ social:
   url: https://nujakujata.itch.io/
 - icon: fas fa-globe
   url: http://marsashton.com
+coordinator_title: Faculty Advisor
 description: Mars Ashton is an award-winning Indie Game Developer, Assistant Professor
   of Game Design at Lawrence Technological University, and a QA Tester for Finji.
   He explores social structures and human-centric narratives both within the play
