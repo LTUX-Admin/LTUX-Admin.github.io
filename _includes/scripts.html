@@ -17,10 +17,11 @@
     {
         var time = moment();
 
-        var startDay = moment('{{site.start_date}}');
-        var endDay = moment('{{site.end_date}}');
+        var startDay = moment('{{site.start_date_code}}', 'YYYY/MM/DD');
+        var endDay = moment('{{site.end_date_code}}', 'YYYY/MM/DD');
+        endDay.add(1, 'day');
 
-        if(!time.isBetween(startDay, endDay, null, '[]'))
+        if(!time.isBetween(startDay, endDay))
             return;
 
         var twitchHolder = $('#twitch');
@@ -28,13 +29,17 @@
 
         var format = 'HH:mm:ss';
 
-        var startThurFriday = moment('18:55:00', format);
-        var start = moment('11:00:00', format);
+        var start = moment('18:00:00', format);
         var end = moment('22:00:00', format);
 
-        if([6,7].indexOf(time.isoWeekday()) >= 0)
+        var satStart = moment('12:00:00', format);
+        var satEnd = moment('23:59:00', format);
+
+
+        if([6].indexOf(time.isoWeekday()) >= 0)
         {
-            if(time.isBetween(start, end, null, '[]'))
+            console.log('saturday')
+            if(time.isBetween(satStart, satEnd, null, '[]'))
             {
                 twitchHolder.show();
                 mainMasthead.hide();
@@ -42,7 +47,8 @@
         }
         else
         {
-            if(time.isBetween(startThurFriday, end, null, '[]'))
+            console.log('not saturday');
+            if(time.isBetween(start, end, null, '[]'))
             {
                 twitchHolder.show();
                 mainMasthead.hide();
@@ -54,7 +60,7 @@
             new Twitch.Embed("twitch-embed", {
                 width:'100%',
                 height:'100%',
-                channel: "{{site.twitch_channel}}",
+                channel: time.isoWeekday() == 6 ? "{{site.twitch_channel_charity}}" : "{{site.twitch_channel_main}}",
                 // only needed if your site is also embedded on embed.example.com and othersite.example.com
             });
         }
