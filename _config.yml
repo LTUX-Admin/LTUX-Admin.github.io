@@ -26,8 +26,8 @@ twitter: 'https://twitter.com/LTUExpo'
 facebook: 'https://www.facebook.com/ltuexpo'
 linkedin: 'https://www.linkedin.com/company/ltux'
 email_subscribe: null
-twitch_channel_main: 'https://www.twitch.tv/statechampsesports'
-twitch_channel_charity: 'https://www.twitch.tv/infinitemachineltu'
+twitch_channel_main: 'statechampsesports'
+twitch_channel_charity: 'infinitemachineltu'
 paginate: 5
 paginate_path: '/blog/post:num/'
 excerpt_separator: <!--more-->
