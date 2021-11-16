@@ -9,6 +9,6 @@ social:
   url: https://www.linkedin.com/in/carissa-vadella-647898132/
 - icon: fab fa-itch-io
   url: https://cvadella.itch.io/
-coordinator_title: Founder/Coordinator
+coordinator_title: Founder
 ---
 
