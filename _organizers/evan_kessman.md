@@ -11,7 +11,7 @@ social:
   url: https://www.linkedin.com/in/evanakessman/
 - icon: fab fa-itch-io
   url: https://t3kmast3r.itch.io/
-coordinator_title: Coordinator
+coordinator_title: Event Chair
 description: Evan Kessman is a senior at LTU, majoring in Computer Science with a
   concentration in Game Software Development. He has a passion for leadership and
   VR programming. Evan has been working as an LTUX coordinator for two years now,
