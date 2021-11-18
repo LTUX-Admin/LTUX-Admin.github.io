@@ -14,7 +14,7 @@ social:
 coordinator_title: Event Chair
 description: Evan Kessman is a senior at LTU, majoring in Computer Science with a
   concentration in Game Software Development. He has a passion for leadership and
-  VR programming. Evan has been working as an LTUX coordinator for two years now,
+  VR programming. Evan has been working as an LTUX coordinator for three years now,
   and helps make sure everything runs smoothly. Evan has worked on numerous other
   projects including a knockoff of iSpy, a Prison Escape, a VR game and more. Evan
   looks forward to working within the industry when he graduates in next May. He hopes
