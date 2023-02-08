@@ -1,0 +1,43 @@
+<div class="container pb-2">
+  {% unless page.mainTitle %}
+  <div class="section-header mb-100">
+    <h2 class="pixelText">Vendors</h2>
+    <hr class="divider" />
+  </div>
+  {% endunless %}
+  <div class="row mb-4 justify-content-center">
+    {% assign sorted_vendors = site.vendors | sort:"order" %} {% for s in
+    sorted_vendors %}
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card">
+        <a href="{{s.website}}"><img src="{{s.img}}" class="card-img-top" /></a>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-2">{{s.name}}</h5>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="section-header mb-100">
+    <h2 class="pixelText">Food Vendors</h2>
+    <hr class="divider" />
+  </div>
+  <div class="row justify-content-center">
+    {% assign sorted_food_vendors = site.vendors-food | sort:"order" %} {% for s in
+        sorted_food_vendors %}
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card">
+        <a href="{{s.website}}"><img src="{{s.img}}" class="card-img-top" /></a>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-2">{{s.name}}</h5>
+          <h5>{{s.hours}}</h5>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="section-header">
+    <h2 class="pixelText text-center text-white mb-5 mt-5">And More!</h2>
+  </div>
+  
+</div>
