@@ -39,6 +39,12 @@ collections:
     output: true
   schedule:
     output: false
+  sponsors:
+    output: false
+  vendors:
+    output: false
+  vendors-food:
+    output: false
 plugins:
   - jekyll-feed
   - jekyll-paginate
