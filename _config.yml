@@ -45,6 +45,11 @@ collections:
     output: false
   vendors-food:
     output: false
+defaults:
+  - scope:
+      path: "img"
+    values:
+      image: true
 plugins:
   - jekyll-feed
   - jekyll-paginate
