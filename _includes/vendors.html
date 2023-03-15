@@ -8,7 +8,7 @@
   <div class="row mb-4 justify-content-center">
     {% assign vendor_images = site.static_files | where: "image", true %}
     {% for vendorImage in vendor_images %}
-    {% if vendorImage.path contains 'vendors' %}
+    {% if vendorImage.path contains 'vendors/merchant' %}
     <div class="col-12 col-md-6 col-lg-4 mb-4">
       <img class="w-100" src="{{ vendorImage.path }}"/>
     </div>
@@ -20,21 +20,16 @@
     <hr class="divider" />
   </div>
   <div class="row justify-content-center">
-    {% comment %}
-    {% assign sorted_food_vendors = site.vendors-food | sort:"order" %} {% for s in
-        sorted_food_vendors %}
-    <div class="col-12 col-md-6 col-lg-4 mb-4">
-      <div class="card">
-        <a href="{{s.website}}"><img src="{{s.img}}" class="card-img-top" /></a>
-        <div class="card-body text-center">
-          <h5 class="card-title mb-2">{{s.name}}</h5>
-          <h5>{{s.hours}}</h5>
-        </div>
+    <div class="row mb-4 justify-content-center">
+      {% assign vendor_images = site.static_files | where: "image", true %}
+      {% for vendorImage in vendor_images %}
+      {% if vendorImage.path contains 'vendors/food' %}
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <img class="w-100" src="{{ vendorImage.path }}"/>
       </div>
+      {% endif %}
+      {% endfor %}
     </div>
-    {% endfor %}
-    {% endcomment %}
-    <h5 class="text-white">Coming Soon!</h5>
   </div>
   <div class="section-header">
     <!-- <h2 class="pixelText text-center text-white mb-5 mt-5">And More!</h2> -->
