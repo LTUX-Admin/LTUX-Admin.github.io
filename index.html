@@ -30,7 +30,9 @@ layout: default
     </div>
   </div>
 
-  {% comment %}
+</section>
+
+<section id="sponsors" class="page-section blue-bg">
   <div class="container-fluid">
     <div class="section-header pb-80">
       <h2 class="pixelText">Sponsors</h2>
@@ -44,11 +46,15 @@ layout: default
       </div>
       {% endfor %}
     </div>
+    <div class="row text-center">
+      <div class="col-12 pt-3 align-self-baseline">
+        <a href="/pdfs/sponsor.pdf" class="btn btn-outline-info mt-3">Want to sponsor LTUX?</a>
+    </div>
+    </div>
   </div>
-  {% endcomment %}
 </section>
 
-<section id="speakers" class="page-section section-white-bg">
+<section id="speakers" class="page-section justify-content-center section-white-bg">
   {% include speakers.html %}
 </section>
 
