@@ -8,5 +8,6 @@ description: Mackenzie Hinds, joined LTU's Esports team as the assistant coach i
     OU to pursue her bachelor's. Mackenzie's gamertag is LittleGhost6044.
 img: "/img/speakers/mackenzie_hinds.jpg"
 social: null
+publish: false
 order: 1
 ---

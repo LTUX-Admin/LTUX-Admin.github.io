@@ -9,6 +9,7 @@
     <div class="row">
         {% assign sorted_speakers = site.speakers | sort:"order" %}
         {% for s in sorted_speakers %}
+        {% if s.publish == null or s.publish == true %}
         <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card speaker-card">
                 <a href="{{s.url}}"><img src="{{s.img}}" class="card-img-top" /></a>
@@ -27,6 +28,7 @@
                 </div>
             </div>
         </div>
+        {% endif %}
         {% endfor %}
 <!--         <div class="col-12 text-center">
             <p><small>Want to become a speaker? Deadline closes February 7th, 2021!</small></p>
