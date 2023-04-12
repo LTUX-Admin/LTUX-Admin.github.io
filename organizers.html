@@ -12,9 +12,50 @@ title: Organizers
     </div>
 </header>
 <section class="page-section">
+
     <div class="container organizer-container pb-200">
+        <!-- Founders -->
         <div class="row">
+            <div class="col-12 mb-5">
+                <h1 class="pixelText">Founders</h1>
+            </div>
             {% for o in site.organizers %}
+            {% if o.url contains 'founders' %}
+            <div class="col-sm-12 col-md-6 mb-4">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <img src="{{o.img}}" style="width: 100%"/>
+                    </div>
+                    <div class="col-sm-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 class="pixelText color-orange pb-0 mb-0">{{ o.name }}</h4>
+                                <small>{{o.coordinator_title}}</small>
+                            </div>
+                            <div class="col-12 mb-2">
+                                <div class="speaker-social">
+                                    {% for s in o.social %}
+                                    <a class="" href="{{s.url}}" target="_blank"><i class="fab {{s.icon}}"></i></a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <!-- <div class="col-12">
+                                {{ o.description }}
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <!-- Faculty -->
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h1 class="pixelText">Faculty</h1>
+            </div>
+            {% for o in site.organizers %}
+            {% if o.url contains 'faculty' %}
             <div class="col-sm-12 col-md-6 mb-4">
                 <div class="row">
                     <div class="col-sm-12 col-lg-4">
@@ -40,7 +81,79 @@ title: Organizers
                     </div>
                 </div>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
+        <!-- Coordinators -->
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h1 class="pixelText">Coordinators</h1>
+            </div>
+            {% for o in site.organizers %}
+            {% if o.url contains 'coordinator' %}
+            <div class="col-sm-12 col-md-6 mb-4">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4">
+                        <img src="{{o.img}}" style="width: 100%"/>
+                    </div>
+                    <div class="col-sm-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 class="pixelText color-orange pb-0 mb-0">{{ o.name }}</h4>
+                                <small>{{o.coordinator_title}}</small>
+                            </div>
+                            <div class="col-12 mb-2">
+                                <div class="speaker-social">
+                                    {% for s in o.social %}
+                                    <a class="" href="{{s.url}}" target="_blank"><i class="fab {{s.icon}}"></i></a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                {{ o.description }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="col-12 mb-5">
+                <h1 class="pixelText">Volunteers</h1>
+            </div>
+           
+            <div class="col-sm-12">
+                <table class="w-100 m-auto">
+                    <tr>
+                        <td>
+                            Sophie Van Antwerp<br/>
+                            Zach Van Nes<br/>
+                            Kalab Gauthier <br/>
+                            Hunter Thompson Paulos <br/>
+                        </td>
+                        <td>
+                            Evelyn Herrmann<br/>
+                            Ava Cole<br/>
+                            Gabrielle VanAmberg<br/>
+                            Vlad Bandyak<br/>
+                        </td>
+                        <td>
+                            Krista Tremble<br/>
+                            Kaitlynn Thompson<br/>
+                            Bailey Phinney<br/>
+                            Noah Rodriguez<br/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        
+        
+        
     </div>
 </section>

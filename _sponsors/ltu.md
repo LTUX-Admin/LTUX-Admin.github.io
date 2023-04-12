@@ -1,4 +1,4 @@
 ---
 name: LTU
-img: /img/coming-soon-square.png
+img: /img/sponsors/ltu.jpeg
 ---

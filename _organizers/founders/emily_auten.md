@@ -3,8 +3,6 @@ title: Emily_auten
 name: Emily Auten
 img: "/img/coordinators/emily_auten.jpeg"
 social:
-- icon: fab fa-itch-io
-  url: https://emcatgames.itch.io/passage
 coordinator_title: Founder
 description: 'Emily Auten is the founder and former con-chair of LTU Expo. Her mission
   is to create a fun and unique event that connects students and the local community.
