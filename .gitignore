@@ -6,3 +6,4 @@ vendor
 .idea
 ltux-web.iml
 .history
+.DS_Store
