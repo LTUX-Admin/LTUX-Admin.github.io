@@ -30,7 +30,7 @@
                     {% for talk in s.talks %}
                         <div class="row m-0 schedule-row {% if forloop.last == false %}talk-border{% endif %}">
                             <div class="col-4 pb-2 pt-2">
-                                {{talk.time}} EST
+                                {{talk.time}} EDT
                             </div>
                             <div class="col-8 pb-2 pt-2">
                                 <h5 class="talk-name">{{talk.name}} {% if talk.speaker %}- <small><i>{{talk.speaker}}</i></small> {% endif %}</h5>
@@ -70,7 +70,7 @@
                     {% for talk in s.talks %}
                         <div class="row m-0 schedule-row {% if forloop.last == false %}talk-border{% endif %}">
                             <div class="col-4 pb-2 pt-2">
-                                {{talk.time}} EST
+                                {{talk.time}} EDT
                             </div>
                             <div class="col-8 pb-2 pt-2">
                                 <h5 class="talk-name">{{talk.name}} {% if talk.speaker %}- <small><i>{{talk.speaker}}</i></small> {% endif %}</h5>
@@ -110,7 +110,7 @@
                     {% for talk in s.talks %}
                         <div class="row m-0 schedule-row {% if forloop.last == false %}talk-border{% endif %}">
                             <div class="col-4 pb-2 pt-2">
-                                {{talk.time}} EST
+                                {{talk.time}} EDT
                             </div>
                             <div class="col-8 pb-2 pt-2">
                                 <h5 class="talk-name">{{talk.name}} {% if talk.speaker %}- <small><i>{{talk.speaker}}</i></small> {% endif %}</h5>
