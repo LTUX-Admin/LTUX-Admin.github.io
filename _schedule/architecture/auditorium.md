@@ -20,7 +20,7 @@ talks:
     name: LTU Alumni Panel and Q&A
     time: 3:30PM - 4:30PM
 - 
-    name: How Player Personality Types Affect Playstyles and Roles in MOBAs
+    name: 'Role Play: Connecting Personality, Playstyle, and Preference in Multiplayer Online Games'
     speaker: Mars Donato
     time: 5PM - 6PM
 - 
