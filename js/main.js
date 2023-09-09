@@ -33,8 +33,8 @@ $(document).ready(()=>{
         }
     } ).mount();
 
-    $('.clock').countdown('2023/04/22 10:00:00', function(event) {
-        var $this = $(this).html(event.strftime('%D day till LTUX 2023!'));
+    $('.clock').countdown('2024/04/27 10:00:00', function(event) {
+        var $this = $(this).html(event.strftime('%D days till LTUX 2024!'));
     });
     $('.shuffle').shuffleChildren();
 
